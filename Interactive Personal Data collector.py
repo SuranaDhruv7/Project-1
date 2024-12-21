@@ -1,0 +1,15 @@
+print("Welcome to the Interactive Personal Data Collector \n")
+a=str(input("Enter your name: "))
+b=int(input("Enter your age: "))
+c=float(input("Enter your height in meters: "))
+d=int(input("Enter your favourite number: "))
+print("Thanyou! Here is the information we collected: \n")
+print("Name: ", a ,("Type: ",(type( a ))),", Memory Address: ",(id( a )))
+print("Name: ", b ,("Type: ",(type( b ))),", Memory Address: ",(id( b )))
+print("Name: ", c ,("Type: ",(type( c ))),", Memory Address: ",(id( c )))
+print("Name: ", d ,("Type: ",(type( d ))),", Memory Address: ",(id( d )))
+a=2024
+b=a-b
+print(b)
+print("Your birth year is apprximately: 2006 (based on your age of 18) \n")
+print("Thankyou for using the Personal Data Collector. Goodbye! \n")
